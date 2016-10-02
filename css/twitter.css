@@ -1,3 +1,16 @@
 body {
   padding-top: 60px;
 }
+.fb-status-update hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* The color of `hr` is set by its top border color.
+  Yeah, it's weird. */
+  border-top: 1px solid lightgray;
+}
+.fb-status-update .list-inline {
+  margin-bottom: 0px;
+}
+.fb-status-update .panel-body {
+  padding-bottom: 5px;
+}
