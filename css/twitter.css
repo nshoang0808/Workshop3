@@ -14,3 +14,28 @@ body {
 .fb-status-update .panel-body {
   padding-bottom: 5px;
 }
+
+.search-form {
+    border-radius: 30px 0px 0px 30px;
+    /*border-radius:Top-left, Top-right, Bottom-right, Bottom-left;*/
+}
+/*to cange only one form and not all give unique class name like  class="search-form" */
+ .search-btn {
+    border-radius: 0px 30px 30px 0px;
+    cursor:pointer;
+}
+.navbar .btn-toolbar button {
+  background-color: transparent;
+  border: none;
+  padding-top: 15px;
+}
+.navbar .btn-toolbar button:hover {
+  color: blue;
+}
+.twitter-symbol span {
+  padding-right: 40px;
+  color: gray;
+}
+.twitter-symbol span:hover {
+  color: blue;
+}
